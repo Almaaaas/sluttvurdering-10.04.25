@@ -1,0 +1,231 @@
+
+/* vurdering.html */
+
+
+#overskrift {
+    font-size: 5vh;
+
+}
+
+#tekst1, #tekst3 {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: solid 2px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(201, 178, 150, 0.797);
+    font-size: 2vh;
+}
+
+#tekst2, #tekst4 {
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 5%;
+    border: solid 2px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(201, 178, 150, 0.797);
+    font-size: 2vh;
+}
+
+
+
+#bunn {
+    text-align: center;
+    padding: 20px;
+    border: solid 2px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: rgba(201, 178, 150, 0.797);
+}
+
+
+
+/* Bilder.html */
+
+img {
+    width: 40%;
+    margin-top: 5%;
+    border: solid 2px;
+    border-radius: 20px;
+}
+
+#bilde1, #bilde3 {
+    margin-left: 10%;
+}
+
+#bilde2, #bilde4 {
+    margin-left: 50%;
+
+}
+
+#bildetekst1, #bildetekst3 {
+    border: solid 2px;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(201, 178, 150, 0.797);
+    margin-left: 20%;
+    padding: 5px;
+}
+
+
+#bildetekst2, #bildetekst4 {
+    border: solid 2px;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(201, 178, 150, 0.797);
+    margin-left: 60%;
+    padding: 5px;
+}
+
+/* aktiviteter.html */
+
+#aktiviteter h2 {
+    border: solid 2px;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(201, 178, 150, 0.797);
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 5%;
+}
+
+#aktiviteter {
+    display: flex;
+    align-items: center;
+    border: solid 2px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(201, 178, 150, 0.797);
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+
+#aktiviteter h3 {
+    border: solid 2px;
+    border-radius: 20px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 20px; 
+}
+
+#aktiviteter img {
+    width: 40%;
+
+}
+
+
+/* quiz.html */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+#quizInnhold, #resultat, #resultatInnhold {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#navninput, #ekstraNavn, #ekstraPoeng {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgba(201, 178, 150, 0.797);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(201, 178, 150, 0.897)
+}
+
+#resultatliste {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resultatliste li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Generelt for alle */
+
+a:link {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+}
+
+a {
+    font-size: 2vh;
+    margin-right: 20px;
+    margin-left:20px;
+}
+
+#topp{
+    border: solid 2px;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(201, 178, 150, 0.600);
+}
+
+
+body{
+    height: 100%;
+    background-image: url(bakgrunn.jpg);
+    background-size: cover;
+}
+
+h1, h2, h3, h4{
+    font-family: "Comfortaa", sans-serif;
+
+}
+
+body, h1, h2, h3, h4, img {
+    user-select: none;
+    caret-color: transparent;
+  }
+  

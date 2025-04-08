@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vurdering.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="vurdering.js" defer></script>
+
+
+    <div id="topp">
+        <h1 id="overskrift">Paris</h1>
+        <a href="vurdering.html" id="forsidelink">Forside</a>
+        <a href="bilder.html" id="bildelink">Bilder</a>
+        <a href="aktiviteter.html" id="aktiviteterlink">Aktiviteter</a>
+        <a href="quiz.html" id="quiz">Quiz</a>
+    </div>
+
+    <div id="overskirft">
+        <h1>By quiz!</h1>
+    </div>
+
+    <div id="hoved">
+        <label for="navninput"></label>
+        <input type="text" id="navninput" alt="navn input" aria-required="true">
+        <button id="startquiz" alt="registrernavn">Registrer navn</button>
+
+        <div id="quizInnhold" style="display: none;"></div>
+        <div id="resultat"></div>
+
+        <button id="visResultaterKnapp">Vis tidligere resultater</button>
+        <div id="resultatInnhold" style="display: none;">
+            <h2>Tidligere resultater:</h2>
+            <ul id="resultatliste" aria-live="polite"></ul>
+        </div>
+
+        <h3>Legg til resultat manuelt:</h3>
+        <input type="text" id="ekstraNavn" placeholder="Navn">
+        <input type="number" id="ekstraPoeng" placeholder="Poeng">
+        <button id="leggTilResultat">Legg til</button>
+
+    </div>
+
+    <div id="bunn">
+        <h4 id="bunninfo">For mer informasjon, kontakt oss på: <br>
+        Email: parisbesøk@workmail.com <br>
+        Telefon: +33 1 42 68 53 00</h4>
+    </div>
+
+</body>
+</html>
